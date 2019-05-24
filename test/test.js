@@ -84,4 +84,20 @@ describe('#haveMinimumOccurrences()', () => {
     const expected = true
     expect(result).to.equal(expected)
   })
+
+  it('should work with substrings longer than 1 character in length', () => {
+    const str = 'aabaacaabaad'
+    const checks = [['aab', 2]]
+    const result = haveMinimumOccurrences(str, checks)
+    const expected = true
+    expect(result).to.equal(expected)
+  })
+
+  it('should work with substrings of various lengths', () => {
+    const str = 'aab1111aab11'
+    const checks = [['aab', 2], [1, 6]]
+    const result = haveMinimumOccurrences(str, checks)
+    const expected = true
+    expect(result).to.equal(expected)
+  })
 })

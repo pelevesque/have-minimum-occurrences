@@ -59,3 +59,10 @@ const checks = [['i', 5], ['t', 3], [' ', 2]]
 const result = haveMinimumOccurrences(str, checks)
 // result === false
 ```
+
+```js
+const str = 'aab111111aab'
+const checks = [['aab', 2]]
+const result = haveMinimumOccurrences(str, checks)
+// result === true
+```
