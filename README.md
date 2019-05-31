@@ -10,7 +10,7 @@ Checks if substrings occur a minimum number of times in a string.
 
 ## Node Repository
 
-[https://www.npmjs.com/package/@pelevesque/have-minimum-occurrences](https://www.npmjs.com/package/@pelevesque/have-minimum-occurrences)
+https://www.npmjs.com/package/@pelevesque/have-minimum-occurrences
 
 ## Installation
 
