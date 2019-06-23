@@ -4,7 +4,7 @@
   "description": "Checks if substrings occur a minimum number of times in a string.",
   "main": "index.js",
   "engines": {
-    "node": ">=5.0.0"
+    "node": ">=6.4.0"
   },
   "scripts": {
     "test": "standard && mocha --reporter spec",
